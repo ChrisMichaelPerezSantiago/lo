@@ -18,16 +18,16 @@
 ## Installation
 
 ```shell
-npm install lo
+npm i @chris5855/vue-lo
 #or
-yarn add lo
+yarn add @chris5855/vue-lo
 ```
 
 You must install lo as a plugin via Vue.use().
 
 ```js
 import Vue from 'vue';
-import lo from 'lo';
+import lo from '@chris5855/vue-lo';
 
 Vue.use(lo);
 ```

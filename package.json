@@ -1,7 +1,7 @@
 {
-  "name": "vue-lo",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@chris5855/vue-lo",
+  "version": "1.0.1",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
