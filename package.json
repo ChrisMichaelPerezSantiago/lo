@@ -1,14 +1,29 @@
 {
   "name": "vue-lo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:plugin": "vue-cli-service build --target lib --name lo ./src/plugins/lo/index.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/lo.common.js",
+  "files": [
+    "dist/*"
+  ],
+  "author": {
+    "name": "Chris Michael",
+    "email": "chrisperezsantiago1@gmail.com",
+    "social": {
+      "github": "https://github.com/ChrisMichaelPerezSantiago",
+      "twitter": "https://twitter.com/Chris5855M"
+    }
+  },
   "dependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
     "core-js": "^3.6.5",
+    "lodash": "^4.17.20",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -32,7 +47,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
