@@ -1,6 +1,6 @@
 {
   "name": "@chris5855/vue-lo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
