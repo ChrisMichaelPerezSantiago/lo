@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./src/assets/logo.png" alt="Lo" />
+</p>
 
 <p align="center">
   Lo is a plugin that includes all the functionalities of lodash.
@@ -6,6 +9,7 @@
 <p align="center">
   <img alt="MIT" src="https://img.shields.io/badge/License-MIT-blue.svg"/>
   <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-blue.svg"/>
+  <img alt="MIT" src="https://img.shields.io/badge/Vue-Plugin-blue.svg"/>
 </p>       
          
 <br/>
