@@ -4,11 +4,17 @@
 </template>
 
 <script>
-  import Vue from 'vue';
-
   export default {
     name: 'App',
-    setup(){
+    setup(props, context) {
+      let object = {
+        'a': [{ 'b': 2 }, { 'd': 4 }]
+      };
+      let other = {
+        'a': [{ 'c': 3 }, { 'e': 5 }]
+      };
+      let merge = context.root.$_.merge(object, other);
+    
       return{}
     }
   }

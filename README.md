@@ -33,10 +33,27 @@ Vue.use(lo);
 ```
 
 ## Access to lodash methods (Example)
-```js
-import Vue from 'vue';
+## context.root.$_.[method]
 
-Vue.map([1,2,3,4,5], (value) => value * 5);
+
+```js
+<script>
+  export default {
+    name: 'App',
+    setup(props, context) {
+      let object = {
+        'a': [{ 'b': 2 }, { 'd': 4 }]
+      };
+      let other = {
+        'a': [{ 'c': 3 }, { 'e': 5 }]
+      };
+      let merge = context.root.$_.merge(object, other);
+    
+      console.log(merge);
+      return{}
+    }
+  }
+</script>
 ```
 
 
