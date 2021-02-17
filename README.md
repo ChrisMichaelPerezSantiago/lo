@@ -10,7 +10,11 @@
   <img alt="MIT" src="https://img.shields.io/badge/License-MIT-blue.svg"/>
   <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-blue.svg"/>
   <img alt="MIT" src="https://img.shields.io/badge/Vue-Plugin-blue.svg"/>
-</p>       
+</p>    
+
+<p align="center">
+  <a href="https://nodei.co/npm/@chris5855/vue-lo/"><img src="https://nodei.co/npm/@chris5855/vue-lo.png"></a>
+</p>
          
 <br/>
 

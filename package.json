@@ -1,6 +1,7 @@
 {
   "name": "@chris5855/vue-lo",
   "version": "1.0.2",
+  "description": "Lo is a plugin that includes all the functionalities of lodash.",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -20,6 +21,13 @@
       "twitter": "https://twitter.com/Chris5855M"
     }
   },
+  "contributors": [
+    {
+      "name": "Chris Michael",
+      "url": "https://github.com/ChrisMichaelPerezSantiago",
+      "reason": "Project Leader, and Developer"
+    }
+  ],
   "dependencies": {
     "@vue/composition-api": "^1.0.0-rc.1",
     "core-js": "^3.6.5",
