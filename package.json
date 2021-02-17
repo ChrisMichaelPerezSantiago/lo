@@ -1,7 +1,7 @@
 {
   "name": "@chris5855/vue-lo",
   "version": "1.0.2",
-  "description": "Lo is a plugin that includes all the functionalities of lodash.",
+  "description": "Lo is a Vuejs plugin that includes all the functionalities of lodash.",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
