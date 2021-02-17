@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Lo is a plugin that includes all the functionalities of lodash.
+  Lo is a Vuejs plugin that includes all the functionalities of lodash.
 </p>
 
 <p align="center">
